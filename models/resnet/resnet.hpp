@@ -285,6 +285,7 @@ class ResNet{
                   const size_t strideHeight = 1,
                   const bool downSample = false)
   {
+    mlpack::Log::Info << "\n";
     downSampleInputWidth = inputWidth;
     downSampleInputHeight = inputHeight;
 
